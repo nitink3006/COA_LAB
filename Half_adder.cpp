@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void Half_Adder(int A,int B){
+	
+	int Sum , Carry;
+
+	Sum = A^B;
+	Carry = A&B;
+	
+	cout<<"Sum = "<< Sum << endl;
+	cout<<"Carry = "<<Carry<< endl;
+}
+int main() {
+	int A,B;
+	cin>>A>>B;
+	Half_Adder(A,B);
+	return 0;
+}
+
+
+
+
+
+OUTPUT
+0
+1
+
+Sum=1
+Carry=0
